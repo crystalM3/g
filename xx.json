@@ -2,7 +2,7 @@
   "ad_source_priority": [
     {
       "name": "AdMob",
-      "enabled": 1,
+      "enabled": 0,
       "app_id": "ca-app-pub-6005646469867005~4955143858",
       "test_mode": false,
       "ad_unit_ids": {
