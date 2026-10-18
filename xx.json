@@ -1,18 +1,6 @@
 {
   "ad_source_priority": [
     {
-      "name": "Unity",
-      "enabled": 1,
-      "game_id": "6179491",
-      "test_mode": false,
-      "ad_unit_ids": {
-        "banner": "Banner_Android",
-        "interstitial": "Interstitial_Android",
-        "rewarded": "Rewarded_Android",
-        "app_open": ""
-      }
-    },
-    {
       "name": "AdMob",
       "enabled": 1,
       "app_id": "ca-app-pub-6005646469867005~4955143858",
@@ -25,17 +13,19 @@
       }
     },
     {
-      "name": "Max",
-      "enabled": 0,
-      "sdk_key": "",
+      "name": "Unity",
+      "enabled": 1,
+      "game_id": "6179491",
+      "test_mode": false,
       "ad_unit_ids": {
-        "banner": "",
-        "interstitial": "",
-        "rewarded": ""
+        "banner": "Banner_Android",
+        "interstitial": "Interstitial_Android",
+        "rewarded": "Rewarded_Android",
+        "app_open": ""
       }
     }
   ],
   "cache_validity_ms": 14400000,
   "interstitial_cooldown_ms": 180000,
-  "banner_position": "BOTTOM_CENTER"
+  "banner_position": "TOP_CENTER"
 }
